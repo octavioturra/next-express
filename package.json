@@ -1,0 +1,33 @@
+{
+  "name": "next-express",
+  "version": "1.0.0",
+  "description": "Simple nextjs and expressjs boilerplate with some steroids",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octavioturra/next-express.git"
+  },
+  "keywords": [
+    "nextjs",
+    "express"
+  ],
+  "author": "Octavio Turra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octavioturra/next-express/issues"
+  },
+  "homepage": "https://github.com/octavioturra/next-express#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "next": "^3.0.0-beta6",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.6"
+  }
+}
